@@ -1,0 +1,225 @@
+@charset "UTF-8";
+body {
+    cursor: default;
+    font-family: Meiryo;
+  }
+  
+  #title_text {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  #title_name {
+    font-size: 100px;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  #title_author {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+  
+  #difficulty_parent {
+    position: absolute;
+    top: 380px;
+    width: 99vw;
+    text-align: center;
+  }
+  
+  button.difficulty {
+    width: 147px;
+    height: 50px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    font-size: 35px;
+  }
+  
+  #easy {
+    background: limegreen;
+  }
+  
+  #normal {
+    background: royalblue;
+  }
+  
+  #hard {
+    background: crimson;
+  }
+  
+  #lunatic {
+    background: darkmagenta;
+  }
+  
+  #custom {
+    background: orange;
+  }
+  
+  #custom_setting {
+    display: none;
+    width: 99vw;
+    text-align: center;
+  }
+  
+  #custom_left {
+    display: inline-block;
+  }
+  
+  #custom_right {
+    display: inline-block;
+    margin-left: 50px;
+  }
+  
+  div.custom_text {
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+  
+  input.custom_input {
+    margin-top: 30px;
+    margin-left: 100px;
+    font-size: 25px;
+  }
+  
+  #custom_random {
+    margin-bottom: 70px;
+    font-size: 50px;
+    background: orange;
+  }
+  
+  #custom_start {
+    margin-bottom: 40px;
+    font-size: 75px;
+    border-radius: 10%;
+    color: black;
+    -webkit-text-stroke: 1px white;
+    background: limegreen;
+  }
+  
+  #custom_mine_probability_text {
+    margin-top: 10px;
+    font-size: 50px;
+  }
+  
+  #game {
+    display: none;
+    width: 100vw;
+    text-align: center;
+  }
+  
+  #status_area {
+    margin-bottom: 10px;
+  }
+  
+  span.status_text {
+    font-size: 25px;
+    margin-right: 25px;
+  }
+  
+  #restart_game {
+    font-size: 25px;
+    border-radius: 10%;
+    background: limegreen;
+  }
+  
+  #quit_game {
+    font-size: 25px;
+    border-radius: 10%;
+    background: violet;
+  }
+  
+  #game_table_frame {
+    max-width: 95vw;
+    max-height: 85vh;
+    overflow: auto;
+  }
+  
+  table {
+    border: 1px black solid;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 0px;
+  }
+  
+  td {
+    width: 24px;
+    height: 24px;
+    border: 1px black solid;
+    font-size: 16px;
+    text-align: center;
+    background: cyan;
+  }
+  
+  td.noMine {
+    font-size: 16px;
+    font-weight: bold;
+    background: gray;
+  }
+  
+  td.mine {
+    background: red;
+  }
+  
+  td.aroundMines1 {
+    color: white;
+  }
+  
+  td.aroundMines2 {
+    color: blue;
+  }
+  
+  td.aroundMines3 {
+    color: red;
+  }
+  
+  td.aroundMines4 {
+    color: purple;
+  }
+  
+  td.aroundMines5 {
+    color: yellow;
+  }
+  
+  td.aroundMines6 {
+    color: orange;
+  }
+  
+  td.aroundMines7 {
+    color: green;
+  }
+  
+  td.aroundMines8 {
+    color: black;
+  }
+  
+  #win_frame {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+  
+  #win_text {
+    font-size: 90px;
+    font-style: italic;
+    color: gold;
+    -webkit-text-stroke: 2px white;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  #戻る {
+    font-size: 30px;
+    border-radius: 10%;
+    background: rgb(0, 81, 255);
+  }
